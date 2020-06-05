@@ -110,7 +110,7 @@ function bodyLogin(){
 			<iframe src="eula.html" class="frame"></iframe><br />
 		</div>
 		<div class="col-md-6">
-			<form action="index.php" method="POST">
+			<form action="<?php echo __FILE__; ?>" method="POST">
 				<div class="form-group">
 			    <label for="user">Username:</label>
 			    <div class="row">
