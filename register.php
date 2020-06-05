@@ -64,6 +64,7 @@ if(isset($_POST['username']) && isset($_POST['password']) && isset($_POST['captc
 }
 bodyLogin();
 function head(){
+	global $config;
 	echo '';
 	?>
 <html>
