@@ -142,6 +142,7 @@ function bodyLogin(){
 	</div>
 	</div>
 	</body>
+</html>
 	<?php
 }
 function register($username, $password){
